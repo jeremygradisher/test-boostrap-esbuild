@@ -3,7 +3,9 @@
 Testing adding Bootstrap from the start with Rails 7 and esbuild:
 
 1. Create application w bootstrap, esbuild and postgresql
+```
 rails new bootstrap-test --css=bootstrap --javascript=esbuild --database=postgresql
+```
 
 2. We can now run bundle install to install the correct version of the gem.
 ```
