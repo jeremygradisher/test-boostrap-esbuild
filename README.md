@@ -49,4 +49,9 @@ root 'welcome#index'
 </div>
 ```
 
+---
 
+## If you are cloning this, remember to precompile your build assets: 
+```
+rails assets:precompile
+```
